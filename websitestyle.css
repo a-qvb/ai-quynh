@@ -13,52 +13,46 @@ section2 {
 }
 
 .links {
-    a1 {
+    > #anchor1Link:link {
         color: #005EFF;
     }
-    a1:visited {
-       color: #005EFF;
+    > #anchor1Link:visited {
+        color: #787878;
     }
-    a1:hover {
-        color: #000000;
-    }
-    a1:active {
+    > #anchor1Link:active {
         color: #005EFF;
     }
-    a2 {
+    > #anchor2Link:link {
         color: #38AC00;
     }
-    a2:visited {
+    > #anchor2Link:visited {
         color: #38AC00;
     }
-    a2:hover {
-        color: #000000;
-    }
-    a2:active {
+    > #anchor2Link:active {
         color: #38AC00;
     }
-    a3 {
+    > #anchor3Link:link {
         color: #E81000;
     }
-    a3:visited {
+    > #anchor3Link:visited {
         color: #E81000;
     }
-    a3:hover {
-        color: #000000;
-    }
-    a3:active {
+    > #anchor3Link:active {
         color: #E81000;
     }
-    a4 {
+    > #anchor4Link:link {
         color: #FF9D01;
     }
-    a4:visited {
+    > #anchor4Link:visited {
         color: #FF9D01;
     }
-    a4:hover {
-        color: #000000;
-    }
-    a4:active {
+    > #anchor4Link:active {
         color: #FF9D01;
+    }
+    > a:visited {
+        color: #787878;
+    }
+    > a:hover {
+        color: #FFFFFF;
     }
 }
