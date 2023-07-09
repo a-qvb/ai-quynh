@@ -1,0 +1,64 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+section1 {
+    font-size: 50px;
+    text-align: center;
+}
+section2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.links {
+    a1 {
+        color: #005EFF;
+    }
+    a1:visited {
+       color: #005EFF;
+    }
+    a1:hover {
+        color: #000000;
+    }
+    a1:active {
+        color: #005EFF;
+    }
+    a2 {
+        color: #38AC00;
+    }
+    a2:visited {
+        color: #38AC00;
+    }
+    a2:hover {
+        color: #000000;
+    }
+    a2:active {
+        color: #38AC00;
+    }
+    a3 {
+        color: #E81000;
+    }
+    a3:visited {
+        color: #E81000;
+    }
+    a3:hover {
+        color: #000000;
+    }
+    a3:active {
+        color: #E81000;
+    }
+    a4 {
+        color: #FF9D01;
+    }
+    a4:visited {
+        color: #FF9D01;
+    }
+    a4:hover {
+        color: #000000;
+    }
+    a4:active {
+        color: #FF9D01;
+    }
+}
