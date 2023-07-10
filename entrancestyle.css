@@ -1,0 +1,21 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFFFFF;
+    font-size: 55px;
+    background-color: #000000;
+    text-align: center;
+}
+
+#frontdoor:link {
+    color: #FFFFFF;
+}
+#frontdoor:visited {
+    color: #FFFFFF;
+}
+#frontdoor:hover {
+    color: #000000;
+    background-color:#FFFFFF;
+}
+#frontdoor:active {
+    color: #FFFFFF;
+}

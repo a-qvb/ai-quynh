@@ -2,12 +2,11 @@ body {
     font-family: 'Courier New', Courier, monospace;
     color: #FFFFFF;
     background-color: #000000;
-}
-section1 {
     font-size: 50px;
     text-align: center;
+    font-weight: bold;
 }
-section2 {
+.topandbottom {
     font-size: 50px;
     text-align: center;
 }
@@ -15,44 +14,54 @@ section2 {
 .links {
     > #anchor1Link:link {
         color: #005EFF;
+        text-align: center;
     }
     > #anchor1Link:visited {
-        color: #787878;
+        color: #005EFF;
+    }
+    > #anchor1Link:hover {
+        background-color:#FFFFFF;
     }
     > #anchor1Link:active {
         color: #005EFF;
     }
     > #anchor2Link:link {
         color: #38AC00;
+        text-align: center;
     }
     > #anchor2Link:visited {
         color: #38AC00;
+    }
+    > #anchor2Link:hover {
+        background-color:#FFFFFF;
     }
     > #anchor2Link:active {
         color: #38AC00;
     }
     > #anchor3Link:link {
         color: #E81000;
+        text-align: center;
     }
     > #anchor3Link:visited {
         color: #E81000;
+    }
+    > #anchor3Link:hover {
+        background-color:#FFFFFF;
     }
     > #anchor3Link:active {
         color: #E81000;
     }
     > #anchor4Link:link {
         color: #FF9D01;
+        text-align: center;
     }
     > #anchor4Link:visited {
         color: #FF9D01;
     }
+    > #anchor4Link:hover {
+        background-color:#FFFFFF;
+    }
     > #anchor4Link:active {
         color: #FF9D01;
-    }
-    > a:visited {
-        color: #787878;
-    }
-    > a:hover {
-        color: #FFFFFF;
     }
 }
