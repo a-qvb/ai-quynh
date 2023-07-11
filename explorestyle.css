@@ -1,17 +1,33 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     color: #FFFFFF;
+    font-size: 40px;
     background-color: #000000;
-    font-size: 50px;
     text-align: center;
     font-weight: bold;
 }
-.topandbottom {
-    font-size: 50px;
+.sandwich {
+    color: #FFFFFF;
+    font-size: 40px;
     text-align: center;
+    #bottombreadlink a:link {
+        color:#FFFFFF;
+    }
+    #bottombreadlink a:visited {
+        color:#FFFFFF
+    }
+    #bottombreadlink a:hover {
+        color: #000000;
+        background-color:#FFFFFF;
+    }
+    #bottombreadlink a:active {
+        color:#FFFFFF;
+    }
 }
 
+
 .links {
+    font-size: 35px;
     > #anchor1Link:link {
         color: #005EFF;
         text-align: center;

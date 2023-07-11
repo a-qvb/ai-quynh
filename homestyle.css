@@ -3,22 +3,34 @@ body {
     color: #FFFFFF;
     background-color: #000000;
 }
+#startingpoint {
+    font-size: 25px;
+    float: left;
+}
 #contact {
     font-size: 25px;
-    text-align: right;
+    float: right;
 }
 
 .beginning {
     #contact {
         color:#FFFFFF
+
     }
     #contact:hover {
         color:#000000;
         background-color:#FFFFFF;
     }
+    #startingpoint {
+        color:#FFFFFF
+    }
+    #startingpoint:hover {
+        color:#000000;
+        background-color:#FFFFFF;
+    }
 }
 .maincontent {
-    font-size: 55px;
+    font-size: 57px;
     text-align: center;
     > #enter:link {
         color: #005EFF;
