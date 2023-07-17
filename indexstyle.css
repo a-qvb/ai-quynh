@@ -4,6 +4,10 @@ body {
     font-size: 55px;
     background-color: #000000;
     text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #frontdoor:link {
