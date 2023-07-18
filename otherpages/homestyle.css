@@ -32,6 +32,9 @@ body {
 .maincontent {
     font-size: 57px;
     text-align: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
     > #enter:link {
         color: #005EFF;
     }
