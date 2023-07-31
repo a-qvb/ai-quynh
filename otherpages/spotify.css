@@ -1,0 +1,27 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFFFFF;
+    background-color: #000000;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.sandwich2 {
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+    #bottombreadlink2:link {
+        color:#FFFFFF;
+    }
+    #bottombreadlink2:visited {
+        color:#FFFFFF
+    }
+    #bottombreadlink2:hover {
+        color: #000000;
+        background-color:#FFFFFF;
+    }
+    #bottombreadlink2:active {
+        color:#FFFFFF;
+    }
+}

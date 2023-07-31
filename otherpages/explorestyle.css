@@ -1,14 +1,15 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     color: #FFFFFF;
-    font-size: 40px;
     background-color: #000000;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     font-weight: bold;
 }
 .sandwich {
     color: #FFFFFF;
-    font-size: 32px;
+    font-size: 40px;
     text-align: center;
     #bottombreadlink:link {
         color:#FFFFFF;
@@ -29,7 +30,6 @@ body {
 .links {
     font-size: 40px;
     text-align: center;
-    height: 100vh;
     justify-content: center;
     align-items: center;
     > #anchor1Link:link {
