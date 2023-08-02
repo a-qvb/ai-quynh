@@ -16,6 +16,10 @@ body {
 h1 {
     margin-bottom: 27px;
 }
+#tagline {
+    margin-top: 1vh;
+    padding-top: 1vh;
+}
 .sandwich {
     color: #FFFFFF;
     font-size: 4vh;

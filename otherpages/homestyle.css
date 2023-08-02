@@ -1,28 +1,33 @@
+html {
+    height: 100vh;
+}
 body {
     font-family: 'Courier New', Courier, monospace;
     color: #FFFFFF;
     background-color: #000000;
-}
-#startingpoint {
-    font-size: 35px;
-    float: left;
-}
-#contact {
-    font-size: 35px;
-    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    height: 99vh;
 }
 
 .beginning {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    font-size: 4vh;
     #contact {
-        color:#FFFFFF
-
+        color:#FFFFFF;
     }
     #contact:hover {
         color:#000000;
         background-color:#FFFFFF;
     }
     #startingpoint {
-        color:#FFFFFF
+        color:#FFFFFF;
     }
     #startingpoint:hover {
         color:#000000;

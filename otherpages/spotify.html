@@ -7,11 +7,29 @@
     <title>Ai-Quynh Bui--Explore</title>
 </head>
 <header class="sandwich2">
-    <h1>LCD SOUNDSYSTEM WAS RiGHT. DAFT PUNK REALLY iS PLAYiNG AT MY HOUSE!</h1>
+    <h1 id="songheader" onclick="randomize()">LCD SOUNDSYSTEM WAS RiGHT. DAFT PUNK REALLY <i>iS</i> PLAYiNG AT MY HOUSE!</h1>
 </header>
 <body>
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1pKYYY0dkg23sQQXi0Q5zN?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <iframe id="embeded" style="border-radius:12px" src="https://open.spotify.com/embed/track/1pKYYY0dkg23sQQXi0Q5zN?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 </body>
 <footer class="sandwich2">
     <h1><a id="bottombreadlink2" href="homepage.html">ALL DONE? CLiCK HERE TO GO HOME.</a></h1>
 </section>
+<script>
+    function randomize() {
+        let embed = document.getElementById("embeded");
+        let headerEle = document.getElementById("songheader")
+        switch (Math.floor(Math.random() * 2)) {
+            case 0: 
+                embed.setAttribute("src", "https://open.spotify.com/embed/track/1pKYYY0dkg23sQQXi0Q5zN?utm_source=generator");
+                headerEle.innerHTML = "LCD SOUNDSYSTEM WAS RiGHT. DAFT PUNK REALLY <i>iS</i> PLAYiNG AT MY HOUSE!";
+                break;
+            case 1:
+                embed.setAttribute("src", "https://open.spotify.com/embed/track/5xWSuhvOJUaO3zrXYxsSAS?utm_source=generator");
+                headerEle.innerHTML = "Sugoma nuts";
+                break
+        }
+        
+    }
+</script>
+
