@@ -6,31 +6,54 @@
     <link rel="stylesheet" href="spotify.css">
     <title>Ai-Quynh Bui--Explore</title>
 </head>
-<header class="sandwich2">
-    <h1 id="songheader" onclick="randomize()">LCD SOUNDSYSTEM WAS RiGHT. DAFT PUNK REALLY <i>iS</i> PLAYiNG AT MY HOUSE!</h1>
-</header>
+
 <body>
+    <header class="sandwich2">
+        <h1 id="songheader" onclick="randomize()">LCD SOUNDSYSTEM WAS RiGHT. DAFT PUNK REALLY <i>iS</i> PLAYiNG AT MY HOUSE!</h1>
+    </header>
+    <div class="content">
+        <p>CLiCK THE HEADER TO EXPLORE OTHER SONGS!</p>
     <iframe id="embeded" style="border-radius:12px" src="https://open.spotify.com/embed/track/1pKYYY0dkg23sQQXi0Q5zN?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
 </body>
 <footer class="sandwich2">
     <h1><a id="bottombreadlink2" href="homepage.html">ALL DONE? CLiCK HERE TO GO HOME.</a></h1>
 </section>
 <script>
+    var count = 0
     function randomize() {
         let embed = document.getElementById("embeded");
         let headerEle = document.getElementById("songheader")
-        switch (Math.floor(Math.random() * 4)) {
+        switch (count) {
             case 0: 
                 embed.setAttribute("src", "https://open.spotify.com/embed/track/1pKYYY0dkg23sQQXi0Q5zN?utm_source=generator");
                 headerEle.innerHTML = "LCD SOUNDSYSTEM WAS RiGHT. DAFT PUNK REALLY <i>iS</i> PLAYiNG AT MY HOUSE!";
+                count += 1;
                 break;
             case 1:
-                embed.setAttribute("src", "https://open.spotify.com/embed/track/5xWSuhvOJUaO3zrXYxsSAS?utm_source=generator");
-                headerEle.innerHTML = "i'M PLAYiNG THiS AT FULL VOLUME WiTH MY WiNDOWS DOWN AT THE RED LiGHT.";
+                embed.setAttribute("src", "https://open.spotify.com/embed/track/4bO4aurVGkuU5FX2984ouZ?utm_source=generator");
+                headerEle.innerHTML = ("HOW MUCH iS iT TO LYFT MY NEW iKEA COUCH BACK HOME?");
+                count += 1;
                 break;
             case 2:
-                embed.setAttribute("src", "https://open.spotify.com/embed/track/4bO4aurVGkuU5FX2984ouZ?utm_source=generator");
-                headerEle.innerHTML = "HOW MUCH WOULD iT COST TO LYFT YOUR NEW iKEA COUCH BACK HOME?";
+                embed.setAttribute("src", "https://open.spotify.com/embed/track/5xWSuhvOJUaO3zrXYxsSAS?utm_source=generator");
+                headerEle.innerHTML = ("i'M PLAYiNG THiS AT FULL VOLUME WiTH MY WiNDOWS DOWN AT THE RED LiGHT.");
+                count += 1;
+                break;
+            case 3:
+                embed.setAttribute("src", "https://open.spotify.com/embed/track/5pFSbiW5XewiQONONBQbqF?utm_source=generator");
+                headerEle.innerHTML = "iSN'T THiS THE STROKES ALBUM EVERYBODY HATES?";
+                count += 1;
+                break;
+            case 4:
+                embed.setAttribute("src", "https://open.spotify.com/embed/track/5GKVcvTgnFYtfh25qKQtRg?utm_source=generator");
+                headerEle.innerHTML = ("NEVERMiND. iT'S THiS ONE.");
+                count += 1;
+                break;
+            case 5:
+                embed.setAttribute("src", "https://open.spotify.com/embed/track/0U9ltIN4q3aBKGZDZq5cAW?utm_source=generator");
+                headerEle.innerHTML = ("HENRY, iF YOU TRULY LOVED ME, YOU'D GET ME THE SiGNED EDiTiON OF <i>CRASH</i> BY J.G. BALLARD AT THE BOOKHOUSE.");
+                count = 0;
                 break;
         }
         

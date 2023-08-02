@@ -10,19 +10,15 @@ body {
     font-weight: bold;
     height: 97vh;
 }
-#songheader {
-    cursor: pointer;
-    user-select: none;
-}
 p {
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
 h1 {
     margin-bottom: 10px;
 }
 .content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     text-align: center;
