@@ -19,15 +19,19 @@
     function randomize() {
         let embed = document.getElementById("embeded");
         let headerEle = document.getElementById("songheader")
-        switch (Math.floor(Math.random() * 2)) {
+        switch (Math.floor(Math.random() * 4)) {
             case 0: 
                 embed.setAttribute("src", "https://open.spotify.com/embed/track/1pKYYY0dkg23sQQXi0Q5zN?utm_source=generator");
                 headerEle.innerHTML = "LCD SOUNDSYSTEM WAS RiGHT. DAFT PUNK REALLY <i>iS</i> PLAYiNG AT MY HOUSE!";
                 break;
             case 1:
                 embed.setAttribute("src", "https://open.spotify.com/embed/track/5xWSuhvOJUaO3zrXYxsSAS?utm_source=generator");
-                headerEle.innerHTML = "Sugoma nuts";
-                break
+                headerEle.innerHTML = "i'M PLAYiNG THiS AT FULL VOLUME WiTH MY WiNDOWS DOWN AT THE RED LiGHT.";
+                break;
+            case 2:
+                embed.setAttribute("src", "https://open.spotify.com/embed/track/4bO4aurVGkuU5FX2984ouZ?utm_source=generator");
+                headerEle.innerHTML = "HOW MUCH WOULD iT COST TO LYFT YOUR NEW iKEA COUCH BACK HOME?";
+                break;
         }
         
     }
