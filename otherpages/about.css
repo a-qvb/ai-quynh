@@ -39,14 +39,14 @@ body {
     display: flex;
 }
 #logo {
-    height: 90px;
-    width: 730px;
+    height: 80px;
+    width: auto;
     align-items: left;
     margin-top: 30px;
     margin-left: 30px;
 }
 ol {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Helvetica', Arial, sans-serif;
     color:#000000;
     text-align: left;
 }
