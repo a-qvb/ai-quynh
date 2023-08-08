@@ -10,6 +10,33 @@ body {
     font-weight: bold;
     height: 97vh;
 }
+.beginning {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    font-size: 4vh;
+    #contact {
+        color:#FFFFFF;
+    }
+    #contact:hover {
+        color:#000000;
+        background-color:#FFFFFF;
+    }
+    #about {
+        color:#FFFFFF;
+    }
+    #about:hover {
+        color:#000000;
+        background-color:#FFFFFF;
+    }
+    #startingpoint {
+        color:#FFFFFF;
+    }
+    #startingpoint:hover {
+        color:#000000;
+        background-color:#FFFFFF;
+    }
+}
 img {
     max-width: 110%;
     max-height: 110%;
@@ -36,39 +63,21 @@ h1 {
     height: 40vh;
     width: auto;
 }
-.sandwich {
+#artlink {
     color: #FFFFFF;
-    font-size: 30px;
+    font-size: 2.5vh;
     text-align: center;
-    #bottombreadlink:link {
-        color:#FFFFFF;
-    }
-    #bottombreadlink:visited {
-        color:#FFFFFF
-    }
-    #bottombreadlink:hover {
-        color: #000000;
-        background-color:#FFFFFF;
-    }
-    #bottombreadlink:active {
-        color:#FFFFFF;
-    }
 }
-.artlink {
-    color: #FFFFFF;
-    font-size: 30px;
-    text-align: center;
-    #artlink:link {
-        color:#FFFFFF;
-    }
-    #artlink:visited {
-        color:#FFFFFF
-    }
-    #artlink:hover {
-        color: #000000;
-        background-color:#FFFFFF;
-    }
-    #artlink:active {
-        color:#FFFFFF;
-    }
+#artlink:link {
+    color:#FFFFFF;
+}
+#artlink:visited {
+    color:#FFFFFF
+}
+#artlink:hover {
+    color: #000000;
+    background-color:#FFFFFF;
+}
+#artlink:active {
+    color:#FFFFFF;
 }

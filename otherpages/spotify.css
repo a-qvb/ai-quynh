@@ -10,6 +10,33 @@ body {
     font-weight: bold;
     height: 97vh;
 }
+.beginning {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    font-size: 4vh;
+    #contact {
+        color:#FFFFFF;
+    }
+    #contact:hover {
+        color:#000000;
+        background-color:#FFFFFF;
+    }
+    #about {
+        color:#FFFFFF;
+    }
+    #about:hover {
+        color:#000000;
+        background-color:#FFFFFF;
+    }
+    #startingpoint {
+        color:#FFFFFF;
+    }
+    #startingpoint:hover {
+        color:#000000;
+        background-color:#FFFFFF;
+    }
+}
 #songheader {
     cursor: pointer;
     user-select: none;
@@ -19,6 +46,7 @@ p {
 }
 h1 {
     margin-bottom: 10px;
+    font-size: 10vh;
 }
 .content {
     display: flex;
@@ -29,22 +57,4 @@ h1 {
     font-weight: bold;
     height: 40vh;
     width: auto;
-}
-.sandwich2 {
-    color: #FFFFFF;
-    font-size: 30px;
-    text-align: center;
-    #bottombreadlink2:link {
-        color:#FFFFFF;
-    }
-    #bottombreadlink2:visited {
-        color:#FFFFFF
-    }
-    #bottombreadlink2:hover {
-        color: #000000;
-        background-color:#FFFFFF;
-    }
-    #bottombreadlink2:active {
-        color:#FFFFFF;
-    }
 }

@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="spotify.css">
-    <title>Ai-Quynh Bui--Explore</title>
+    <title>Ai-Quynh Bui - Music</title>
 </head>
 
 <body>
+    <div class="beginning">
+        <a id="startingpoint" href="foyer.html"><strong>RETURN TO THE FOYER</strong></a>
+        <a id="about" href="about.html"><strong>ABOUT Ai-QUYNH!</strong></a>
+        <a id="contact" href="mailto:a.qvbui@gmail.com"><strong>EMAiL Ai-QUYNH!</strong></a>
+    </div>
     <header class="sandwich2">
         <h1 id="songheader" onclick="randomize()">LCD SOUNDSYSTEM WAS RiGHT. DAFT PUNK REALLY <i>iS</i> PLAYiNG AT MY HOUSE!</h1>
     </header>
@@ -16,11 +21,8 @@
     <iframe id="embeded" style="border-radius:12px" src="https://open.spotify.com/embed/track/1pKYYY0dkg23sQQXi0Q5zN?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
 </body>
-<footer class="sandwich2">
-    <h1><a id="bottombreadlink2" href="homepage.html">ALL DONE? CLiCK HERE TO GO HOME.</a></h1>
-</footer>
 <script>
-    var count = 0
+    var count = 1
     function randomize() {
         let embed = document.getElementById("embeded");
         let headerEle = document.getElementById("songheader")
