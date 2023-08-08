@@ -41,7 +41,7 @@ body {
     }
 }
 h1 {
-    font-size: 70px;
+    font-size: 10vh;
 }
 #tagline {
     margin-top: 1vh;
@@ -52,7 +52,7 @@ h1 {
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 5vh;
     > #anchor1Link:link {
         color: #005EFF;
         text-align: center;
