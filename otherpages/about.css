@@ -13,6 +13,7 @@ body {
 .beginning {
     display: flex;
     justify-content: space-between;
+    height: max-content;
     width: 100vw;
     font-size: 4vh;
     #contact {
@@ -24,6 +25,7 @@ body {
     }
     #toggle {
         color:#FFFFFF;
+        height: max-content;
     }
     #toggle:hover {
         color:#000000;
@@ -37,35 +39,7 @@ body {
         background-color:#FFFFFF;
     }
 }
-.id {
-    border: 2px solid #edebea;
-    background-color: #edebea;
-    height: 90vh;
-    width: 150vh;
-    border-radius: 3%;
-    display: flex;
-}
-#logo {
-    height: 80px;
-    width: auto;
-    align-items: left;
-    margin-top: 30px;
-    margin-left: 30px;
-}
-ol {
-    font-family: 'Helvetica', Arial, sans-serif;
-    color:#000000;
-    text-align: left;
-}
-#pfp {
-    height: 90%;
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-}
-#signature {
-    height: 25%;
-    width: 25%;
-    align-items: bottom;
+img {
+    border-radius: 2%;
+    margin-bottom: 25px;
 }
