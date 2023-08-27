@@ -16,8 +16,10 @@ body {
     height: max-content;
     width: 100vw;
     font-size: 4vh;
+    margin-bottom: 2vh;
     #contact {
         color:#FFFFFF;
+        height: max-content;
     }
     #contact:hover {
         color:#000000;
@@ -26,18 +28,41 @@ body {
     #toggle {
         color:#FFFFFF;
         height: max-content;
+        margin: 0;
+        cursor: pointer;
+        user-select: none;
     }
     #toggle:hover {
         color:#000000;
         background-color:#FFFFFF;
+        cursor: pointer;
+        user-select: none;
     }
     #startingpoint {
         color:#FFFFFF;
+        height: max-content;
     }
     #startingpoint:hover {
         color:#000000;
         background-color:#FFFFFF;
     }
+}
+.id{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#enter {
+    color:#FFFFFF;
+    text-align: center;
+    font-size: 4vh;
+}
+#enter:hover {
+    color:#000000;
+    background-color:#FFFFFF;
+    text-align: center;
+    font-size: 4vh;
 }
 img {
     border-radius: 2%;
