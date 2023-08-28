@@ -93,12 +93,12 @@ h1 {
     display: flex;
     justify-content: space-around;
 }
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     .nav {
         flex-direction: column;
     }
 }
-@media (min-width: 801px) {
+@media (min-width: 1201) {
     .nav {
         flex-direction: row;
     }
