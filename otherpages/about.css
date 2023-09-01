@@ -10,7 +10,7 @@ body {
     font-weight: bold;
     height: 97vh;
 }
-.beginning {
+.nav {
     display: flex;
     justify-content: space-between;
     height: max-content;

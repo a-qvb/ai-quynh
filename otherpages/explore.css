@@ -98,7 +98,7 @@ h1 {
         flex-direction: column;
     }
 }
-@media (min-width: 1201) {
+@media (min-width: 1201px) {
     .nav {
         flex-direction: row;
     }

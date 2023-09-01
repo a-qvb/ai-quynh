@@ -14,7 +14,7 @@ body {
     height: 99vh;
 }
 
-.beginning {
+.nav {
     display: flex;
     justify-content: space-between;
     width: 100vw;

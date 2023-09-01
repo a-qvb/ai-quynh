@@ -44,11 +44,13 @@
                 break;
             case 3:
                 embed.setAttribute("src", "../websitefiles/snippet.png");
+                embed.setAttribute("onclick", "window.open('https://olig.dev')")
                 spot.setAttribute("style", style="border-radius:12px; height:20vh; width:50vw;");
                 embed.setAttribute('style', 'width:200; height: 227;')
                 count += 1;
                 break;
             case 4:
+                embed.removeAttribute("onclick")
                 embed.setAttribute("src", "../websitefiles/license.png");
                 spot.setAttribute("style", style="display: none")
                 embed.setAttribute('style', 'width:1050px; height: 600px;');
