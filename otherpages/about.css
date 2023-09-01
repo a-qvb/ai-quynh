@@ -68,3 +68,18 @@ img {
     border-radius: 2%;
     margin-bottom: 25px;
 }
+.nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width: 1200px) {
+    .nav {
+        flex-direction: column;
+    }
+}
+@media (min-width: 1201) {
+    .nav {
+        flex-direction: row;
+    }
+}
