@@ -97,18 +97,80 @@ body {
         color: #ff9d01;
     }
 }
-.nav {
-    width: 100vw;
-    display: flex;
-    justify-content: space-around;
+
+.menu-content {
+    padding: 0 0 0 0px;
 }
+.collapsible-menu {
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+}
+.collapsible-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+.collapsible-menu a {
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.collapsible-menu label {
+    font-size: 56px;
+    cursor: pointer;
+    background: "V" no-repeat left center;
+    padding: 10px 0 10px 0px;
+}
+#menubutton:hover {
+    color: black;
+    background-color: white;
+}
+input#menu {
+    display: none;
+}
+
+input:checked +label {
+    background-image: "^";
+}
+
+.menu-content {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 0 0 0px;
+    color: white;
+}
+.beginning {
+    color:white;
+}
+.beginning:hover {
+    color: black;
+    background-color: white;
+}
+
+
+/* Toggle Effect */
+input:checked ~ label {
+    background-image: url(close.png);
+}
+input:checked ~ .menu-content {
+    max-height: 100%;
+}
+
 @media (max-width: 1200px) {
     .nav {
-        flex-direction: column;
+        display: none;
+    }
+    .collabsible-menu label {
+        display: block;
     }
 }
-@media (min-width: 1201) {
+@media (min-width: 1201px) {
     .nav {
         flex-direction: row;
+    }
+    .collapsible-menu label {
+        display: none;
+    }
+    .menu-content {
+        display: none;
     }
 }
