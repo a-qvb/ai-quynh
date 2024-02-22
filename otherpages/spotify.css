@@ -1,7 +1,7 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: #0f131f;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -19,21 +19,21 @@ body {
         color:#FFFFFF;
     }
     #contact:hover {
-        color:#000000;
+        color:#0f131f;
         background-color:#FFFFFF;
     }
     #about {
         color:#FFFFFF;
     }
     #about:hover {
-        color:#000000;
+        color:#0f131f;
         background-color:#FFFFFF;
     }
     #startingpoint {
         color:#FFFFFF;
     }
     #startingpoint:hover {
-        color:#000000;
+        color:#0f131f;
         background-color:#FFFFFF;
     }
 }

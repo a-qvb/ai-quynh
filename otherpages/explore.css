@@ -4,7 +4,7 @@ html {
 body {
     font-family: 'Courier New', Courier, monospace;
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: #0f131f;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -18,7 +18,7 @@ body {
     color:#FFFFFF;
 }
 .beginning:hover {
-    color:#000000;
+    color:#0f131f;
     background-color:#FFFFFF;
 }
 
@@ -152,7 +152,7 @@ input:checked +label {
     color:white;
 }
 .beginning:hover {
-    color: black;
+    color: #0f131f;
     background-color: white;
 }
 
