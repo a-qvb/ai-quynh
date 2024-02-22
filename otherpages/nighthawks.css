@@ -1,7 +1,7 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     color: #FFFFFF;
-    background-color: #0f131f;
+    background-color: #212121;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -19,21 +19,21 @@ body {
         color:#FFFFFF;
     }
     #contact:hover {
-        color:#0f131f;
+        color:#212121;
         background-color:#FFFFFF;
     }
     #about {
         color:#FFFFFF;
     }
     #about:hover {
-        color:#0f131f;
+        color:#212121;
         background-color:#FFFFFF;
     }
     #startingpoint {
         color:#FFFFFF;
     }
     #startingpoint:hover {
-        color:#0f131f;
+        color:#212121;
         background-color:#FFFFFF;
     }
 }
@@ -75,7 +75,7 @@ h1 {
     color:#FFFFFF
 }
 #artlink:hover {
-    color: #0f131f;
+    color: #212121;
     background-color:#FFFFFF;
 }
 #artlink:active {

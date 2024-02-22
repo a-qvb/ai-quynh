@@ -2,7 +2,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     color: #FFFFFF;
     font-size: 55px;
-    background-color: #0f131f;
+    background-color: #212121;
     text-align: center;
     height: 100vh;
     display: flex;
@@ -17,7 +17,7 @@ body {
     color: #FFFFFF;
 }
 #frontdoor:hover {
-    color: #000000;
+    color: #212121;
     background-color:#FFFFFF;
 }
 #frontdoor:active {

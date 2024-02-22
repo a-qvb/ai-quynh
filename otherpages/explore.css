@@ -4,7 +4,7 @@ html {
 body {
     font-family: 'Courier New', Courier, monospace;
     color: #FFFFFF;
-    background-color: #0f131f;
+    background-color: #212121;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -18,7 +18,7 @@ body {
     color:#FFFFFF;
 }
 .beginning:hover {
-    color:#0f131f;
+    color:#212121;
     background-color:#FFFFFF;
 }
 
@@ -131,7 +131,7 @@ h1 {
     padding: 10px 0 10px 0px;
 }
 #menubutton:hover {
-    color: black;
+    color: #212121;
     background-color: white;
 }
 input#menu {
@@ -152,7 +152,7 @@ input:checked +label {
     color:white;
 }
 .beginning:hover {
-    color: #0f131f;
+    color: #212121;
     background-color: white;
 }
 
